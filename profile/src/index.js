@@ -98,6 +98,6 @@ let currentTime = new Date();
 dateElement.innerHTML = formatDate(currentTime);
 
 let currentLocationButton = document.querySelector("#current-location-button");
-currentLocationButton.addEventListener("submit", getCurrentLocation);
+currentLocationButton.addEventListener("click", getCurrentLocation);
 
 searchCity("New York");
